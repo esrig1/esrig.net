@@ -18,3 +18,40 @@
     font-weight: 450;
     
 }
+
+/* Hamburger Menu icon default hidden on larger display view */
+.hamburger {
+    display: none
+}
+
+@media screen and (max-width: 1040px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh; 
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+
+    .nav.active {
+        left: 0;
+    }
+
+    .nav li {
+        padding: 1rem 0;
+    }
+
+    .nav li a {
+        font-size: 2rem;
+    }
+
+    .hamburger {
+        display: initial;
+    }
+}
