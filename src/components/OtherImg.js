@@ -1,16 +1,19 @@
 import "./OtherImg.css"
 
-import React from 'react'
+import React, {Component} from 'react'
 
-const OtherImg = () => {
+class OtherImg extends Component {
+  render() {
+
   return (
-    <div className="hero-img">
+    <div className="other-hero-img">
       <div className="heading">
-        <h1>Heading</h1>
-        <p>Text</p>
+        <h1>{this.props.heading}</h1>
+        <p>{this.props.text}</p>
       </div>
     </div>
   )
+}
 }
 
 export default OtherImg

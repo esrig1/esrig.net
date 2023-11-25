@@ -1,7 +1,7 @@
 import "./MainImg.css";
 
 import React from 'react'
-import IntroImg from "../assets/logo192.png"
+import IntroImg from "../assets/EsrigPompeii.png"
 import {Link} from "react-router-dom"
 
 const MainImg = () => {
@@ -15,7 +15,7 @@ const MainImg = () => {
                 <h1>Software Engineer</h1>
                 <div>
                 <Link to="/project" className = "btn">Projects</Link>
-                <Link to="/contact" className = "btn btn-light">Contact</Link>
+                <Link to="/contact" className = "btn">Contact</Link>
                 </div>
             </div>
         </div>
