@@ -22,11 +22,12 @@ const Footer = () => {
             </div>
             <div className='right'>
               <h4>About This Website</h4>
-              <p>This website is a full stack project showcasing 
-                my programming history, strengths, and achievements
+              <p>Hey, thanks for visiting the second iteration of my website!
+                I've put this together to show off my projects and work experiences, 
+                and to gain experience with React and SQL.
               </p>
               <div className='socials'>
-              <FaLinkedin size={20} style={{color: "#fff", marginRight: "2rem"}}/>
+              <FaLinkedin size={20} style={{color: "#fff", marginRight: "2rem"}} />
               <FaGithub size={20} style={{color: "#fff", marginRight: "2rem"}}/>
               </div>
             </div>
