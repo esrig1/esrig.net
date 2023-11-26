@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    padding: 3rem 3rem;
+    padding: 4rem 10rem;
 }
 
 .timeline .timeline-item {
@@ -52,9 +52,23 @@
     color: var(--color-grey-2);
 }
 
+
 @media screen and (max-width: 1040px) {
     .timeline {
         grid-template-columns: 1fr;
-        padding-bottom: 6rem;
+
     }
 }
+
+
+@media screen and (max-width: 1040px) {
+    .timeline {
+        padding: 4rem 8%;
+        padding-right: 6%;
+
+    }
+    .timeline .timeline-item {
+        padding-left: 2rem;
+    }
+}
+

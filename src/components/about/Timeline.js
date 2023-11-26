@@ -5,26 +5,27 @@ import {FaBriefcase} from "react-icons/fa"
 
 const Timeline = () => {
   return (
-    <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <FaBriefcase size={20}/>
-                    </div>
-                    <p class="tl-duration">
-                        May 2022 - present
-                    </p>
-                    <h5>Programming Tutor<span> - Diamond Tutoring</span></h5>
+
+    <div className="timeline">
+            <div className="timeline-item">
+                <div className="tl-icon">
+                        <FaBriefcase/>
+                </div>
+                <p className="tl-duration">
+                    May 2022 - present
+                 </p>
+                <h5>Programming Tutor<span> - Diamond Tutoring</span></h5>
                     <p>
                         Diamond Tutoring is a completely virtual tutoring company that acts as a middleman between tutors and students in need.
                         I create individual tutoring curriculums adapted specifically for each of my students' age and skill level.
                         Scratch and Java are the primary languages that I tutor to my students.
                     </p>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <FaBriefcase size={20}/>
+                <div className="timeline-item">
+                    <div className="tl-icon">
+                        <FaBriefcase/>
                     </div>
-                    <p class="tl-duration">
+                    <p className="tl-duration">
                         May 2022 - September 2022
                     </p>
                     <h5>The Odin Project</h5>
@@ -35,11 +36,11 @@ const Timeline = () => {
                         gained culminated to the creation of this website! 
                     </p>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <FaBriefcase size={20}/>
+                <div className="timeline-item">
+                    <div className="tl-icon">
+                        <FaBriefcase/>
                     </div>
-                    <p class="tl-duration">
+                    <p className="tl-duration">
                         February 2021 - March 2022
                     </p>
                     <h5>Student Videographer<span> - UW-Madison CS Department</span></h5>
@@ -50,11 +51,11 @@ const Timeline = () => {
                     </p>
                     
                 </div>
-                    <div class="timeline-item">
-                        <div class="tl-icon">
-                            <FaBriefcase size={20}/>
+                    <div className="timeline-item">
+                        <div className="tl-icon">
+                            <FaBriefcase/>
                         </div>
-                        <p class="tl-duration">
+                        <p className="tl-duration">
                             January 2019 - August 2020
                         </p>
                         <h5>Programming Tutor<span> - Code Ninjas</span></h5>

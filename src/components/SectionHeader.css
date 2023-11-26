@@ -1,0 +1,17 @@
+.section-header {
+    text-align: center;
+    position: relative;
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.section-header::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 40%;
+    height: 2px;
+    background-color: var(--color-grey-5);
+    transform: translateX(-50%);
+}

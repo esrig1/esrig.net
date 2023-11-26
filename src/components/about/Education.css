@@ -1,0 +1,69 @@
+.education {
+    display: grid;
+    grid-template-columns: 1fr; /* Set to a single column */
+    grid-gap: 2rem;
+    margin-left: 13%;
+    padding: 4rem 20%;
+    justify-content: center; /* Center the grid items horizontally */
+    align-items: center; /* Center the grid items vertically */
+}
+
+.education .education-item {
+    position: relative;
+    padding-left: 3rem;
+    border-left: 1px solid var(--color-grey-5);
+}
+
+.education .education-item .education-icon {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    background-color: var(--color-secondary);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.education .education-item .education-duration {
+    padding: 0.2rem 0.6rem;
+    background-color: var(--color-grey-5);
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.education .education-item h5 {
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+.education .education-item h5 span {
+    color: var(--color-grey-2);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.education .education-item p {
+    color: var(--color-grey-2);
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .education {
+        padding: 4rem 8%;
+        padding-right: 6%;
+    }
+    .education .education-item {
+        padding-left: 2rem;
+    }
+}
+
