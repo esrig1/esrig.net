@@ -1,39 +1,31 @@
-/* TierList.css */
 .tier-list {
     display: flex;
-    flex-direction: column; /* Stack tiers vertically */
-    align-items: center; /* Center tiers horizontally */
-    margin: 0 27%
-  }
-  
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 24%;
+    border: 1px solid white;
+    background-color: var(--color-grey-4);
+}
+
 .tier {
-    width: 100%;
+    width: 90%;
     margin: 16px;
     padding: 16px;
     border: 1px solid #ccc;
     display: flex;
-    flex-direction: row; /* Align items vertically within the tier */
+    flex-direction: row;
     align-items: center;
-    justify-content: left;
     text-align: center;
-  }
+    background-color: var(--color-grey-1);
+}
 
 .tier p {
-    font-size: 7rem; /* Set font size to be the same as the default font size */
-    align-items: center;
-    margin-right: 3%;
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 
-#S p{
-    margin-left: 1%;
+.tier img {
+    height: 90px;
+    width: auto;
+    margin: 0 8px;
 }
-  
-  
-
-  .tier img {
-    height: 90px; /* Adjust the height as needed */
-    width: auto; /* Maintain the aspect ratio */
-    margin: 8px; /* Add margin between images */
-  }
-  
- 
