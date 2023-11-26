@@ -6,6 +6,7 @@ import Timeline from '../components/about/Timeline'
 import Education from "../components/about/Education"
 import SectionHeader from '../components/SectionHeader'
 import AboutMe from '../components/about/AboutMe'
+import TierList from '../components/about/TierList'
 
 const About = () => {
   return (
@@ -13,6 +14,8 @@ const About = () => {
       <Navbar/>
       <AboutHero heading="About Me" text="My History as a Developer"/>
       <AboutMe/>
+      <SectionHeader heading = "Proficiency Tier List"/>
+      <TierList/>
       <SectionHeader heading= "Education"/>
       <Education/>
       <SectionHeader heading = "Work Experience"/>

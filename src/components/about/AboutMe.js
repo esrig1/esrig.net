@@ -1,6 +1,8 @@
 import React from 'react';
 import myImage from '../../assets/EsrigPompeii.png';
 import './AboutMe.css';
+import {FaGithub, FaLinkedin} from "react-icons/fa"
+
 
 const AboutMe = () => {
   return (
@@ -16,6 +18,15 @@ const AboutMe = () => {
           I enjoy creating responsive and user-friendly interfaces. In my free time, you can find me exploring new technologies
           or working on personal coding projects. Let's build something amazing together!
         </p>
+        <div className='about-button-container'>
+            <a href="/JoshuaEsrigResume.pdf" download="JoshuaEsrigResume.pdf" className='btn'>Resume</a>
+            <a href="https://github.com/esrig1" target="_blank" rel="noopener noreferrer">
+                <FaGithub className='social'/>
+            </a>
+            <a href="https://www.linkedin.com/in/esrig/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className='social'/>
+            </a>
+        </div>
       </div>
     </div>
   );
