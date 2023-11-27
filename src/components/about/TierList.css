@@ -29,3 +29,32 @@
     width: auto;
     margin: 0 8px;
 }
+
+@media screen and (max-width: 1250px) {
+    .tier-list {
+        margin: 3% 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tier-list {
+        margin: 3% 10%;
+    }
+    .tier img {
+        height: 50px;
+        width: auto;
+        margin: 0 8px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tier-list {
+        margin: 3% 1%;
+    }
+    .tier img {
+        height: 30px;
+        width: auto;
+        margin: 0 8px;
+    }
+}
+
