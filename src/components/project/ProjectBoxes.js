@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectBox from './ProjectBox'
+import "./ProjectBoxes.css"
 
 const ProjectBoxes = () => {
   return (

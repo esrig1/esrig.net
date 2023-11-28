@@ -12,11 +12,11 @@ const AboutMe = () => {
         <img src={myImage} alt="Myself" />
       </div>
       <div className="description-container">
-        <h1>About Me</h1>
+        <h1>Who am I?</h1>
         <p>
-          Hello! My name is [Your Name], and I am a passionate software engineer with a love for front-end development.
-          I enjoy creating responsive and user-friendly interfaces. In my free time, you can find me exploring new technologies
-          or working on personal coding projects. Let's build something amazing together!
+          Hello! My name is Joshua Esrig, and I am a passionate software engineer with a love for full stack development.
+          I thrive most when working on Agile teams creating meaningful, cutting edge software. In my free time, you 
+          can find me exploring new technologies or working on personal coding projects. 
         </p>
         <div className='about-button-container'>
             <a href="/JoshuaEsrigResume.pdf" download="JoshuaEsrigResume.pdf" className='btn'>Resume</a>
