@@ -1,0 +1,30 @@
+.project-boxes {
+    display: flex;
+    gap: 5%; /* Adjust the gap between projects as needed */
+    margin: 5%;
+    justify-content: center;
+  }
+
+.project-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 850px) {
+  .project-boxes {
+    gap: 3%; /* Adjust the gap between projects as needed */
+    margin: 3%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project-boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+  }
+
+  
+}

@@ -7,7 +7,7 @@
     background-color: var(--color-grey-4);
 }
 
-.tier {
+.tier-list .tier {
     width: 90%;
     margin: 16px;
     padding: 16px;
@@ -19,12 +19,12 @@
     background-color: var(--color-grey-1);
 }
 
-.tier p {
+.tier-list .tier p {
     font-size: 2rem;
     margin-right: 1rem;
 }
 
-.tier img {
+.tier-list .tier img {
     height: 90px;
     width: auto;
     margin: 0 8px;

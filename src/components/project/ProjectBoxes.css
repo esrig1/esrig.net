@@ -1,6 +1,0 @@
-.project-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 5%; /* Adjust the gap between projects as needed */
-    margin: 5%;
-  }
