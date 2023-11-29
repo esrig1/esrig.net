@@ -1,5 +1,5 @@
 // ProjectBox.js
-import React, { useState } from 'react';
+import React from 'react';
 import './ProjectBox.css'; // Import your CSS file for styling
 
 const ProjectBox = ({ title, description, demoLink, techStackImages }) => {

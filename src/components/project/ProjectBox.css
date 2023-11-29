@@ -18,7 +18,7 @@
   margin-bottom: 0;
   font-size: 1.9vw; /* Responsive font size based on viewport width */
   max-width: fit-content;
-  height: 15%; 
+  height: 10%; 
 }
 
 .project-box .description {
@@ -31,7 +31,7 @@
 
 .project-box .technologies {
   margin-bottom: 1.25rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 
@@ -64,9 +64,9 @@
   margin: 0 1%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1550px) {
   .project-box .description {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
   }
 }
 
@@ -101,6 +101,10 @@
 
   .project-box .description {
     font-size: 1.9vh;
+  }
+
+  .project-box .technologies {
+    margin-top: 20%;
   }
 
 }
