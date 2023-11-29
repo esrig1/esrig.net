@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #12181b;
+  background: var(--color-grey-6);
 }
 
 h1, h4, p, a {
