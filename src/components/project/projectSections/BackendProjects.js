@@ -13,9 +13,7 @@ const techStackImages2 = [
 ];
 
 const techStackImages3 = [
-<img src='/TechStackIcons/css-3.svg' alt='HTML' />,
-<img src='/TechStackIcons/html-5.svg' alt='CSS' />,
-<img src='/TechStackIcons/javascript.svg' alt='JavaScript' />,
+<img src='/TechStackIcons/idk.png' alt='idk' />,
 
 ];
 
@@ -41,8 +39,8 @@ return (
     />
     <ProjectBox
       title="Coming Soon!"
-      description="If I could sit around all day and make personal projects, I would :)"
-      demoLink="https://example.com/project1-demo"
+      description="Please do not click on this box it's not done yet. I'm asking very nicely."
+      demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       techStackImages={techStackImages3}
     />
   </div>
