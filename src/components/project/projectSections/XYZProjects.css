@@ -1,7 +1,8 @@
 .project-boxes {
-    display: flex;
-    margin: 5%;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4%;
+    margin: 3%
   }
 
 .project-container {
@@ -11,19 +12,11 @@
   margin-top: 3%;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .project-boxes {
-    margin: 3%;
+    grid-template-columns: 1fr;
   }
-}
-
-@media screen and (max-width: 650px) {
-  .project-boxes {
-    flex-direction: column;
-    
-    margin: 5%;
+  .project-container {
+    margin-bottom: 150px;
   }
-  
-
-  
 }

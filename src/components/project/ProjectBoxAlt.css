@@ -1,0 +1,72 @@
+/* ProjectBox.css */
+.project-box {
+    position: relative;
+    background-color: var(--color-grey-5);
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+}
+
+.project-box .top{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-box .bottom{
+    margin: 5% 0;
+}
+
+.project-box h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.project-box .description {
+   text-align: center;
+}
+
+.project-box .technologies {
+    text-align: center;
+    margin-top: 5%; 
+}
+
+.project-box:hover {}
+
+.project-box .project-tech-stack {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.project-box .project-tech-stack img {
+    height: 5rem;
+    width: auto;
+}
+
+@media screen and (max-width: 1550px) {
+  .project-box .description {}
+}
+
+@media screen and (max-width: 1000px) {
+  .project-box {}
+
+  .project-box h2 {}
+
+  .project-box .project-tech-stack img {}
+}
+
+@media screen and (max-width: 650px) {
+  .project-box {}
+
+  .project-box h2 {}
+
+  .project-box .description {}
+
+  .project-box .technologies {}
+}

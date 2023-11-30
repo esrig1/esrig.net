@@ -1,6 +1,6 @@
 // ProjectBox.js
 import React from 'react';
-import './ProjectBox.css'; // Import your CSS file for styling
+import './ProjectBoxAlt.css'; // Import your CSS file for styling
 
 const ProjectBox = ({ title, description, demoLink, techStackImages }) => {
 
@@ -10,15 +10,16 @@ const ProjectBox = ({ title, description, demoLink, techStackImages }) => {
 
   return (
     <div className="project-box" onClick={handleProjectBoxClick}>
-
-        <h2>{title}</h2>
-        <p className='technologies'><strong>Technologies:</strong></p>
-        <div className="project-tech-stack">
-          {techStackImages}
+        <div className='top'>
+          <h2>{title}</h2>
+          <p className='technologies'><strong>Technologies:</strong></p>
+          <div className="project-tech-stack">
+            {techStackImages}
+          </div>
         </div>
-  
-      <p className='description'>{description}</p>
-      
+      <div className='bottom'>
+        <p className='description'>{description}</p>
+      </div>  
     </div>
   );
 };
