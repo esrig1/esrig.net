@@ -37,8 +37,14 @@
     padding: 1rem;
 }
 
-.socials {
+.footer-container .right .socials {
     margin-top: 1rem;
+}
+
+.footer-container .right .socials a{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-right: 2rem;
 }
 
 h4 {

@@ -4,6 +4,8 @@ import React from 'react'
 import IntroImg from "../../assets/EsrigPompeii.png"
 import {Link} from "react-router-dom"
 import Typed from "typed.js";
+import {FaGithub, FaLinkedin} from "react-icons/fa"
+
 
 const MainImg = () => {
     const el = React.useRef(null);
@@ -13,7 +15,8 @@ const MainImg = () => {
           typeSpeed: 100,
           backSpeed: 50, // Adjust the backspacing speed
           startDelay: 500, // Optional delay before typing starts
-          backDelay: 1500, // Optional delay before backspacing starts
+          backDelay: 1000, // Optional delay before backspacing starts
+          
           loop: true
         });
     
@@ -29,12 +32,23 @@ const MainImg = () => {
                 <img className="hero-img" src={IntroImg} alt="IntroImg"/>
             </div>
             <div className="content">
-                <p>Hey, I'm Josh</p>
+                <h2>Hey, I'm Josh</h2>
                 <h1>A <span ref={el} /></h1>
+                <h3>Quick Links</h3>
                 <div className="buttons">
-                <Link to="/project" className = "btn">Projects</Link>
-                <a href="/JoshuaEsrigResume.pdf" download="JoshuaEsrigResume.pdf" className='btn'>Resume</a>
+                    <a href="/JoshuaEsrigResume.pdf" download="JoshuaEsrigResume.pdf" className='btn'>Resume</a>
+                    <a href="https://github.com/esrig1" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className='social'/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/esrig/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className='social'/>
+                    </a>
                 </div>
+                <p>Thanks for visiting my site! You can look around to see my programming history, in addition to 
+                    some of my past work.
+                </p>
+
+                
             </div>
         </div>
   );

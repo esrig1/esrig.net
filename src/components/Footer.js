@@ -27,8 +27,12 @@ const Footer = () => {
                 and to gain experience with React and SQL.
               </p>
               <div className='socials'>
-              <FaLinkedin size={20} style={{color: "#fff", marginRight: "2rem"}} />
-              <FaGithub size={20} style={{color: "#fff", marginRight: "2rem"}}/>
+                <a href="https://github.com/esrig1" target="_blank" rel="noopener noreferrer">
+                  <FaGithub className='social'/>
+                </a>
+                <a href="https://www.linkedin.com/in/esrig/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className='social'/>
+                </a>
               </div>
             </div>
 
