@@ -20,7 +20,8 @@ ul {
 }
 
 .btn {
-  padding: 12px 32px;
+  padding: 12px 20px;
+  min-width: 150px; /* Adjust the fixed width as needed */
   font-size: 1rem;
   text-transform: uppercase;
   background: white;
@@ -28,6 +29,9 @@ ul {
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  display: inline-block; /* Ensures that the width is respected even if there's no content */
+  text-align: center; /* Center the text horizontally */
 }
 
 .btn-light {
@@ -41,7 +45,7 @@ ul {
   transition: 0.3s;
 }
 
-/* :root {
+:root {
   --color-primary: #191d2b;
   --color-secondary: #27ae60;
   --color-white: #FFFFFF;
@@ -55,10 +59,10 @@ ul {
   --color-grey-6: #12181b;
   --br-sm02: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3) ;
-} */
+}
 
 
-:root {
+/* :root {
   --color-primary: #FDFFF1;
   --color-secondary: #bb4f70;
   --color-white: #454e56;
@@ -72,4 +76,4 @@ ul {
   --color-grey-6: #12181b;
   --br-sm02: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3) ;
-}
+} */
