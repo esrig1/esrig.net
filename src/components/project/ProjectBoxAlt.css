@@ -39,6 +39,8 @@
 .project-box .technologies {
     text-align: center;
     margin-top: 5%; 
+    transform: scale(1.1);
+
 }
 
 .project-box:hover {
