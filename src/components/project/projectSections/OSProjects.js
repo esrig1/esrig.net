@@ -19,7 +19,7 @@ const techStackImages3 = [
 
 return (
   <div className='project-container'>
-   <h1>Algorithm/AI Projects</h1> 
+   <h1>OS Projects</h1> 
   <div className='project-boxes'>
     <ProjectBox
       title="Cache"
