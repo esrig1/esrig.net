@@ -10,12 +10,15 @@ const ProjectBox = ({ title, description, demoLink, techStackImages }) => {
 
   return (
     <div className="project-box" onClick={handleProjectBoxClick}>
-      <h2>{title}</h2>
+
+        <h2>{title}</h2>
+        <p className='technologies'><strong>Technologies:</strong></p>
+        <div className="project-tech-stack">
+          {techStackImages}
+        </div>
+  
       <p className='description'>{description}</p>
-      <p className='technologies'><strong>Technologies:</strong></p>
-      <div className="project-tech-stack">
-        {techStackImages}
-      </div>
+      
     </div>
   );
 };
