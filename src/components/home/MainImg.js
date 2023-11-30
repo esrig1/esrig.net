@@ -32,7 +32,7 @@ const MainImg = () => {
                 <img className="hero-img" src={IntroImg} alt="IntroImg"/>
             </div>
             <div className="content">
-                <h2>Hey, I'm Josh</h2>
+                <h2>Hey, I'm Joshua Esrig</h2>
                 <h1>A <span ref={el} /></h1>
                 <h3>Quick Links</h3>
                 <div className="buttons">

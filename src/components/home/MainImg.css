@@ -66,7 +66,6 @@
 .hero .content h2{
     font-size: 2rem;
     font-weight: 200;
-    text-transform: uppercase;
 }
 
 .hero .content h3{
@@ -98,17 +97,40 @@
 
 @media screen and (max-width: 640px) {
     .hero .content h1{
-        font-size: 2rem;
+        font-size: 2.8rem;
         padding-bottom: .5rem;
     }
 
-    .hero .content .btn {
-        margin-top: 1rem;
+    .hero .content h2{
+        font-size: 1.5rem;
+        
     }
+
+    .hero .content .buttons .social{
+        font-size: 2rem;
+        margin-left: 2rem;
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .hero .content .buttons .btn{
+        padding: 10px 12px;
+        min-width: 100px;
+    }
+
+    
     
     .hero .content p{
         font-size: 1.2rem;
         min-width: 400px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .hero .content p{
+        font-size: 1.2rem;
+        min-width: 350px;
         
     }
 }
