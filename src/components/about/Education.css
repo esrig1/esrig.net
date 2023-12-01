@@ -2,8 +2,10 @@
     display: grid;
     grid-template-columns: 1fr; /* Set to a single column */
     grid-gap: 2rem;
-    margin-left: 13%;
-    padding: 4rem 20%;
+    
+    max-width: 1000px;
+    padding-left: 10%;
+    margin: 3% auto;
     justify-content: center; /* Center the grid items horizontally */
     align-items: center; /* Center the grid items vertically */
 }
@@ -59,8 +61,9 @@
 
 @media screen and (max-width: 700px) {
     .education {
-        padding: 4rem 8%;
-        padding-right: 6%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        
     }
     .education .education-item {
         padding-left: 2rem;
