@@ -39,7 +39,7 @@
 
 .hero .content h1{
     font-size: 4rem;
-    padding: 0.6rem 0 1.5rem;
+    padding: 0.6rem 0 1rem;
     text-align: center;
     white-space: nowrap; 
 
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 640px) {
     .hero .content h1{
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         padding-bottom: .5rem;
     }
 
@@ -109,7 +109,6 @@
     .hero .content .buttons .social{
         font-size: 2rem;
         margin-left: 2rem;
-        transition: transform 0.3s ease-in-out; 
     }
 
     .hero .content .buttons .btn{
@@ -130,7 +129,7 @@
     
     .hero .content p{
         font-size: 1.2rem;
-        min-width: 350px;
+        min-width: 370px;
         
     }
 }
