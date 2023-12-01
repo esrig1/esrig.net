@@ -7,7 +7,7 @@ const Education = () => {
     <div className="education">
         <div className="education-item">
                 <div className="education-icon">
-                        <FaGraduationCap size={20}/>
+                        <FaGraduationCap />
                 </div>
                 <p className="education-duration">
                     Sept 2020 - Dec 2023
@@ -20,7 +20,7 @@ const Education = () => {
         </div>
         <div className="education-item">
                 <div className="education-icon">
-                        <FaGraduationCap size={20}/>
+                        <FaGraduationCap />
                 </div>
                 <p className="education-duration">
                     Jan 2023 - May 2023

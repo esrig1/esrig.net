@@ -62,7 +62,6 @@
 @media screen and (max-width: 1800px) {
     .timeline .timeline-item ul,
     .timeline .timeline-item h5 span,
-    .timeline .timeline-item .tl-icon, 
     .timeline .timeline-item .tl-duration{
     font-size: 1.03rem;
     }
@@ -71,6 +70,8 @@
         height: 50px;
         width: 50px;
         left: -27px;
+        font-size: 1.03rem;
+
     }
 
     .timeline .timeline-item h5 {
