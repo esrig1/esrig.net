@@ -1,13 +1,13 @@
 .other-hero-img {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 60vh;
     position: relative;
 }
 
 .other-hero-img::before {
     content: "";
-    background-image: url("../assets/OtherImgBackground.jpeg");
+    background-image: url("../assets/otherbg.jpg");
     background-size: cover;
     background-position: center top;
     height: 100%;
