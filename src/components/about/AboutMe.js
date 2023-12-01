@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../../assets/EsrigPompeii.png';
+import myImage from '../../assets/EsrigPompeii.jpg';
 import './AboutMe.css';
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 

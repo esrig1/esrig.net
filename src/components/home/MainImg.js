@@ -1,7 +1,7 @@
 import "./MainImg.css";
 
 import React from 'react'
-import IntroImg from "../../assets/EsrigPompeii.png"
+import IntroImg from "../../assets/EsrigPompeii.jpg"
 import {Link} from "react-router-dom"
 import Typed from "typed.js";
 import {FaGithub, FaLinkedin} from "react-icons/fa"
