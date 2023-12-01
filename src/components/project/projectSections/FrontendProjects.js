@@ -10,8 +10,9 @@ const FrontendProjects = () => {
   const techStackImages2 = [
     <img src='/TechStackIcons/css-3.svg' alt='CSS' />,
     <img src='/TechStackIcons/html-5.svg' alt='HTML' />,
-    <img src='/TechStackIcons/php.svg' alt='PHP' />,
     <img src='/TechStackIcons/mysql.svg' alt='MySQL' />,
+    <img src='/TechStackIcons/php.svg' alt='PHP' />
+
 ];
 
 const techStackImages3 = [

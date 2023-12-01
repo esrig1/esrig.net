@@ -1,6 +1,5 @@
-// ProjectBox.js
 import React from 'react';
-import './ProjectBoxAlt.css'; // Import your CSS file for styling
+import './ProjectBoxAlt.css'; 
 
 const ProjectBox = ({ title, description, demoLink, techStackImages }) => {
 

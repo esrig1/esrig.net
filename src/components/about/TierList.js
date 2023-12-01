@@ -1,4 +1,3 @@
-// TierList.js
 import React from 'react';
 import './TierList.css';
 

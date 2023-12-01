@@ -18,6 +18,8 @@
     background-image: url(/public/projBack.jpg);
 }
 
+
+
 .project-box .bottom{
     border-top: 8px solid var(--color-secondary);
     margin-bottom: 5%;
@@ -64,4 +66,20 @@
     margin: 0 2%;
     width: auto;
 }
+
+@media screen and (min-width: 1800px) {
+    .project-box h2 {
+        font-size: 2.3rem;
+    }
+    .project-box .top .technologies {
+        font-size: 1.5rem;
+    }
+    .project-box .project-tech-stack img {
+        height: 6rem;
+    }
+    .project-box .description {
+        font-size: 1.5rem;
+     }
+  }
+  
 
