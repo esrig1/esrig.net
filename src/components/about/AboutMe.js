@@ -12,7 +12,7 @@ const AboutMe = () => {
         <img src={myImage} alt="Myself" />
       </div>
       <div className="description-container">
-        <h1>Who am I?</h1>
+        <h1>About Me</h1>
         <p>
           Hello! My name is Joshua Esrig, and I am a passionate software engineer with a love for full stack development.
           I thrive most when working on Agile teams creating meaningful, cutting edge software. In my free time, you 

@@ -14,4 +14,11 @@
     height: 2px;
     background-color: var(--color-grey-5);
     transform: translateX(-50%);
+    max-width: 500px;
+}
+
+@media screen and (min-width: 1800px) {
+    .section-header h1 {
+        font-size: 3rem;
+    }
 }

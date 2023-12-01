@@ -80,6 +80,45 @@
     line-height: 1.6;
     
   }
+
+  @media screen and (min-width: 1801px) {
+    .about-me-container {
+        margin: 3% 12%; 
+    }
+
+    .about-me-container .image-container {
+        width: 40rem; 
+        height: 40rem; 
+    }
+
+    .about-me-container .image-container img {
+        height: 95%; 
+        width: 85%; 
+        margin-left: 6rem; 
+    }
+
+    .about-me-container .description-container {
+        max-width: 800px; 
+        margin-left: 4rem; 
+        margin-top: 3rem; 
+    }
+
+    .about-me-container h1 {
+        font-size: 2rem; 
+        margin-bottom: 1.5rem;
+    }
+
+    .about-me-container p {
+        font-size: 1.6rem;
+        line-height: 1.8; 
+    }
+
+    .about-me-container .description-container .about-button-container .social {
+        font-size: 3rem; 
+        margin-left: 3rem; 
+    }
+}
+
   
 
   @media screen and (max-width: 1230px) {
@@ -90,4 +129,12 @@
       }
     
       
+}
+
+@media screen and (max-width: 500px) {
+  .about-me-container .description-container{
+      margin-left: 3%;
+    }
+  
+    
 }
